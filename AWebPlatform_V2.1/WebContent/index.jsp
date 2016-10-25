@@ -44,17 +44,127 @@
 		<!-- <img src="img/agree.png" class="aside-logo" /> -->
 
 		<div class="accordion aside-menu" id="asideMenuList">
+			<%--测试用 --%>
+			<div class="accordion-group">
+			    <div class="accordion-heading">
+			        <a class="accordion-toggle collapsed hvr-bounce-to-left" data-toggle="collapse" data-parent="#asideMenuList" href="#asideDev1">
+			            <i class="fa   fa-yelp"></i><span>&nbsp;采购</span>
+			            <i class="fa fa-angle-down"></i>
+			        </a>
+			    </div>
+			    <div id="asideDev1" class="accordion-body collapse">
+			        <div class="accordion-inner">
+			            <ul class="nav nav-list">
+			                <!--子菜单项 Start-->
+			                <li><a data-href="buy#apply">采购申请</a></li>
+			                <li><a data-href="buy#reply">采购回复</a></li>
+			                <!--子菜单项 End-->
+			            </ul>
+			        </div>
+			    </div>
+			</div>
 			
+			<div class="accordion-group">
+			    <div class="accordion-heading">
+			        <a class="accordion-toggle collapsed hvr-bounce-to-left" data-toggle="collapse" data-parent="#asideMenuList" href="#asideDev2">
+			            <i class="fa   fa-yelp"></i><span>&nbsp;供货</span>
+			            <i class="fa fa-angle-down"></i>
+			        </a>
+			    </div>
+			    <div id="asideDev2" class="accordion-body collapse">
+			        <div class="accordion-inner">
+			            <ul class="nav nav-list">
+			                <!--子菜单项 Start-->
+			                <li><a data-href="supply#supplyimf">供货信息</a></li>
+			                <!--子菜单项 End-->
+			            </ul>
+			        </div>
+			    </div>
+			</div>
+			
+			<div class="accordion-group">
+			    <div class="accordion-heading">
+			        <a class="accordion-toggle collapsed hvr-bounce-to-left" data-toggle="collapse" data-parent="#asideMenuList" href="#asideDev3">
+			            <i class="fa   fa-yelp"></i><span>&nbsp;存储</span>
+			            <i class="fa fa-angle-down"></i>
+			        </a>
+			    </div>
+			    <div id="asideDev3" class="accordion-body collapse">
+			        <div class="accordion-inner">
+			            <ul class="nav nav-list">
+			                <!--子菜单项 Start-->
+			                <li><a data-href="storage#general">一般实验室物品</a></li>
+			                <li><a data-href="storage#danger">易制毒、剧毒物品</a></li>
+			                <!--子菜单项 End-->
+			            </ul>
+			        </div>
+			    </div>
+			</div>
+			
+			<div class="accordion-group">
+			    <div class="accordion-heading">
+			        <a class="accordion-toggle collapsed hvr-bounce-to-left" data-toggle="collapse" data-parent="#asideMenuList" href="#asideDev12">
+			            <i class="fa   fa-yelp"></i><span>&nbsp;使用</span>
+			            <i class="fa fa-angle-down"></i>
+			        </a>
+			    </div>
+			    <div id="asideDev12" class="accordion-body collapse">
+			        <div class="accordion-inner">
+			            <ul class="nav nav-list">
+			                <!--子菜单项 Start-->
+			                <li><a data-href="buy#buy">采购</a></li>
+			                <!--子菜单项 End-->
+			            </ul>
+			        </div>
+			    </div>
+			</div>
+			
+			<div class="accordion-group">
+			    <div class="accordion-heading">
+			        <a class="accordion-toggle collapsed hvr-bounce-to-left" data-toggle="collapse" data-parent="#asideMenuList" href="#asideDev5">
+			            <i class="fa   fa-yelp"></i><span>&nbsp;回收</span>
+			            <i class="fa fa-angle-down"></i>
+			        </a>
+			    </div>
+			    <div id="asideDev5" class="accordion-body collapse">
+			        <div class="accordion-inner">
+			            <ul class="nav nav-list">
+			                <!--子菜单项 Start-->
+			                <li><a data-href="recovery#tuihui">退回表</a></li>
+			                <li><a data-href="recovery#cunfan">存放表</a></li>
+			                <li><a data-href="recovery#huishou">回收表</a></li>
+			                <!--子菜单项 End-->
+			            </ul>
+			        </div>
+			    </div>
+			</div>
+			
+			<div class="accordion-group">
+			    <div class="accordion-heading">
+			        <a class="accordion-toggle collapsed hvr-bounce-to-left" data-toggle="collapse" data-parent="#asideMenuList" href="#asideDev12">
+			            <i class="fa   fa-yelp"></i><span>&nbsp;个人中心</span>
+			            <i class="fa fa-angle-down"></i>
+			        </a>
+			    </div>
+			    <div id="asideDev12" class="accordion-body collapse">
+			        <div class="accordion-inner">
+			            <ul class="nav nav-list">
+			                <!--子菜单项 Start-->
+			                <!--子菜单项 End-->
+			            </ul>
+			        </div>
+			    </div>
+			</div>
 			
 			<div class="accordion-group">
                 <div class="accordion-heading">
-                    <a class="accordion-toggle collapsed hvr-bounce-to-left" data-toggle="collapse" data-parent="#asideMenuList" href="#asideDev1">
+                    <a class="accordion-toggle collapsed hvr-bounce-to-left" data-toggle="collapse" data-parent="#asideMenuList" href="#asideDev19">
                         <i class="fa fa-yelp"></i>
                         <span>图表测试</span>
                         <i class="fa fa-angle-down"></i>
                     </a>
                 </div>
-                <div id="asideDev1" class="accordion-body collapse">
+                <div id="asideDev19" class="accordion-body collapse">
                     <div class="accordion-inner">
                         <ul class="nav nav-list">
                             <li><a data-href="testEcharts#line">折线</a></li>
